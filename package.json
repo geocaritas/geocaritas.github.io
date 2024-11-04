@@ -1,0 +1,43 @@
+{
+  "name": "maps-with-deckgl",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+    "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.6",
+    "@mdi/font": "^7.4.47",
+    "@vueuse/core": "^10.9.0",
+    "convert-csv-to-json": "^2.29.0",
+    "deck.gl": "^8.9.34",
+    "ky": "^1.2.1",
+    "lodash": "^4.17.21",
+    "proj4": "^2.10.0",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0",
+    "vue3-google-map": "^0.19.0",
+    "vuetify": "^3.6.6",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@types/webfontloader": "^1.6.38",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.22.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.4.10",
+    "vite-plugin-pwa": "^0.19.0",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vue-cli-plugin-vuetify": "^2.5.8",
+    "vue-eslint-parser": "^9.4.2",
+    "vue-tsc": "^2.1.10"
+  }
+}
